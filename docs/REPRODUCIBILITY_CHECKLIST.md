@@ -29,7 +29,7 @@ nonlinear optimization, single representative lactating cow)
 | Every reported statistic independently re-verified against the manuscript prior to release | Ok |
 | Deterministic (no random sampling) | Ok |
 | Open repository planned | Ok |
-| Zenodo DOI | Pending -- will be added upon archival release |
+| Zenodo DOI | https://doi.org/10.5281/zenodo.21900057 |
 | Manuscript DOI | Pending -- will be added once available |
 
 ---
