@@ -188,17 +188,26 @@ terms of use.
 ## Contact
 
 **Halil Tosun**
+
 Department of Animal Science, School of Agricultural and Food Sciences,
+
 ADA University, Baku, Azerbaijan
+
 ORCID: https://orcid.org/0000-0001-5117-0390
+
 Email: halilibrahimtosun@gmail.com
 
 **Victor E. Cabrera**
-Department of Animal and Dairy Sciences, University of Wisconsin-Madison,
+
+Department of Animal and Dairy Sciences, 
+
+University of Wisconsin-Madison,
 Madison, WI, USA
+
 ORCID: https://orcid.org/0000-0003-1739-7457
+
 Email: vcabrera@wisc.edu
 
-**Zenodo DOI:** [DOI will be added once assigned upon archival release]
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.21900057
 
 **Version:** 1.0.0
