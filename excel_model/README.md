@@ -29,11 +29,11 @@ form for cross-checking.
 
 | Sheet | Contents | Corresponds to |
 |---|---|---|
-| `README` | Purpose, structure, color-coding key, assumptions to validate, and a summary of the ingredient-library robustness update | \u2014 |
+| `README` | Purpose, structure, color-coding key, assumptions to validate, and a summary of the ingredient-library robustness update | — |
 | `Ingredients` | The 5 primary ingredients (feed composition, price, DM-basis conversion formulas) plus the 2 byproduct ingredients (DDGS, soybean hulls) used only in the robustness sheet | `data/raw/ingredient_library.csv`; Table 1 |
 | `Diet Scenarios` | A fixed 9-scenario (3 forage sources \u00d7 3 forage:concentrate ratios) exploratory comparison used during model development, superseded by the constrained-optimization analysis (see Methods) | Not reported as a result (see manuscript, Methods, "Study Design Overview") |
 | `Calculations` | Cell-by-cell ECM, FPCM, DMI, enteric methane, GHG intensity, feed cost, and IOFC formulas for each of the 9 fixed scenarios above | `code/_calc.py` (same equations, Python implementation) |
-| `Results` | Summary trade-off table and marginal-cost curve for the 9 fixed scenarios | \u2014 (superseded; see above) |
+| `Results` | Summary trade-off table and marginal-cost curve for the 9 fixed scenarios | (superseded; see above) |
 | `Optimization` | The primary 5-ingredient constrained-optimization frontier (headline finding) | Table 2; `code/02_diet_optimization.py` |
 | `Validation & Sensitivity` | External validation against NASEM (2021) benchmarks; price-sensitivity tornado analysis; alfalfa-inclusion cost analysis | Tables 3-5; `code/03-05*.py` |
 | `Ingredient Library Robustness` | The 7-ingredient (DDGS + soybean hulls) robustness check | Table 6; `code/06_ingredient_library_robustness.py` |
