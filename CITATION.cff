@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Reproducibility Package: Quantifying the Economic Cost of Reducing Dietary Fiber to Mitigate Greenhouse Gas Emissions in U.S. Dairy Cattle"
+message: "If you use this reproducibility package, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Tosun"
+    given-names: "Halil"
+    orcid: "https://orcid.org/0000-0001-5117-0390"
+    affiliation: "ADA University, School of Agricultural and Food Sciences, Department of Animal Science, Baku, Azerbaijan"
+    email: "halilibrahimtosun@gmail.com"
+  - family-names: "Cabrera"
+    given-names: "Victor E."
+    orcid: "https://orcid.org/0000-0003-1739-7457"
+    affiliation: "University of Wisconsin-Madison, Department of Animal and Dairy Sciences, Madison, WI, USA"
+    email: "vcabrera@wisc.edu"
+email: "halilibrahimtosun@gmail.com"
+repository-code: "[DOI will be added once assigned upon archival release]"
+keywords:
+  - constrained optimization
+  - enteric methane
+  - income over feed cost
+  - neutral detergent fiber
+  - dairy economics
+  - greenhouse gas emission intensity
+  - ration formulation
+  - reproducibility
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-08-11"

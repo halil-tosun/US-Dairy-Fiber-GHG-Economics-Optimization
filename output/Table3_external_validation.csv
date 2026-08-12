@@ -1,0 +1,8 @@
+quantity,model_value,benchmark,assessment
+"Dietary NDF, %DM",28.0-37.2 (range across frontier),34.1 +/- 4.6 (mean +/- SD),Within range
+"Forage-sourced (physically effective) NDF, %DM",20.0 (imposed floor),>= 19-21 (guidance minimum),Consistent
+"Dietary CP, %DM","16.0 (constant, lower bound)",17.8 +/- 1.6 (mean +/- SD),Modestly below mean; see Discussion
+"DMI, kg/d",22.4-24.8 (range across frontier),23.0 +/- 2.8 (mean +/- SD),Within range
+"Body weight, kg",650 (fixed input),643.0 +/- 59.0 (mean +/- SD),Within range
+"Feed cost, $/cwt milk (lactating-cow ration only)",$6.36-$6.90 (range across frontier),n/a -- different scope (see reconciliation below),See reconciliation below
+"Feed cost, $/cwt milk (whole-farm-equivalent)",$9.79-$10.61 (reconciled using 65% lactating-cow share),$10.26-$11.64 (USDA ERS/Dairy Margin Coverage Program (Apr. 2026); University of Illinois FBFM (2024)),Within range

@@ -1,0 +1,8 @@
+quantity,benchmark_value,benchmark_sd,benchmark_low,benchmark_high,unit,source
+Dietary NDF,34.1,4.6,,,%DM,NASEM (2021) Nutrient Requirements of Dairy Cattle 8th ed. -- large multi-study dataset mean +/- SD
+Forage-sourced (physically effective) NDF minimum,,,19,21,%DM,NASEM (2021)-based TMR formulation guidance
+Dietary CP,17.8,1.6,,,%DM,NASEM (2021) large multi-study dataset mean +/- SD
+DMI,23.0,2.8,,,kg/d,NASEM (2021) large multi-study dataset mean +/- SD
+Body weight,643,59,,,kg,NASEM (2021) large multi-study dataset mean +/- SD
+Whole-farm feed cost,,,10.26,11.64,USD/cwt,USDA ERS/Dairy Margin Coverage Program (Apr. 2026); University of Illinois FBFM (2024)
+Lactating-cow share of whole-farm feed expenditure,0.65,,,,fraction,Farm and Dairy; Hubbard Feeds extension benchmarks (herd raising own replacements: ~65% lactating / 30% heifers / 5% dry cows)

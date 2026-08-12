@@ -1,0 +1,8 @@
+ingredient,dm_pct,ndf_pct_dm,adf_pct_dm,cp_pct_dm,nel_mcal_kg_dm,price_usd_per_ton_asfed,is_forage,used_in_primary_model,price_source,composition_source
+Alfalfa haylage,45,40,32,20,1.30,195,TRUE,TRUE,USDA NASS Agricultural Prices (2026),NASEM (2021) feed library
+Corn silage,35,45,26,8,1.55,52,TRUE,TRUE,University of Missouri Extension 2026 Corn Silage Planning Budget (G664); full economic cost basis,NASEM (2021) feed library
+Grass hay,88,58,35,11,1.20,145,TRUE,TRUE,USDA AMS/NASS grass hay national average (2026),NASEM (2021) feed library
+Corn grain ground,88,9,3,9,1.90,155,FALSE,TRUE,USDA NASS corn price (2026),NASEM (2021) feed library
+Soybean meal 48pct CP,90,8,6,48,1.98,305,FALSE,TRUE,USDA WASDE (2026),NASEM (2021) feed library
+DDGS,90,35,15,30,1.90,150,FALSE,FALSE,Late-2025/early-2026 futures-linked DDG price projection,Standard corn DDGS composition (representative published values)
+Soybean hulls,90,67,47,12,1.68,140,FALSE,FALSE,Illustrative 2026 byproduct estimate (~90% of corn grain price/ton),Blasi et al. 2000 (Kansas State Univ. MF-2438)
