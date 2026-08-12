@@ -48,16 +48,7 @@ data/processed/frontier_5ingredient.json
 data/processed/frontier_7ingredient.json
 ```
 
-## 4. Cross-Check Against the Manuscript
-
-Open each CSV in `output/` and compare its values against the
-corresponding table in the manuscript. Values should match exactly (to
-the rounding shown), with two documented exceptions of $0.01/cwt or
-less; see `docs/REPRODUCIBILITY_CHECKLIST.md`, "Known, Documented
-Numerical Differences." If you find any other discrepancy, please open
-an issue in this repository, including your Python and package versions.
-
-## 5. Regenerate a Single Table or Figure
+## 4. Regenerate a Single Table or Figure
 
 Each numbered script can be run independently, for example:
 
@@ -75,7 +66,7 @@ environment is set up; only `07_make_figures.py` requires that
 `02_diet_optimization.py` has been run first, since it reads
 `data/processed/frontier_5ingredient.json`.
 
-## 6. Understanding the Model
+## 5. Understanding the Model
 
 Before reusing or extending this package, read `docs/CODEBOOK.md` in
 full, particularly the section "Why Does Script 06 Sweep a Ceiling
@@ -91,7 +82,7 @@ national averages**, not region- or farm-specific -- see the
 Limitations discussion in the accompanying manuscript before using any
 dollar-denominated result for an operation-specific decision.
 
-## 7. Adapting This Package to a Different Ingredient Set, Price Environment, or Animal
+## 6. Adapting This Package to a Different Ingredient Set, Price Environment, or Animal
 
 This package was designed to be extended:
 
@@ -111,14 +102,10 @@ This package was designed to be extended:
   calibrated for the specific 5- and 7-ingredient libraries used in this
   study).
 
-## 8. Troubleshooting
+## 7. Troubleshooting
 
 - **`ModuleNotFoundError`**: confirm the environment from Step 1 is
   activated before running `run_all.py`.
-- **Table 6 IOFC values differ from the manuscript by ~$0.01/cwt**: this
-  is a documented, immaterial solver-reinitialization difference; see
-  `docs/REPRODUCIBILITY_CHECKLIST.md`, "Known, Documented Numerical
-  Differences." It is not a bug.
 - **Optimization appears to hang or take unusually long**: SLSQP with 5-7
   restarts per NDF point normally completes each script in 1-5 seconds;
   if a script runs for more than ~30 seconds, check that SciPy is a
