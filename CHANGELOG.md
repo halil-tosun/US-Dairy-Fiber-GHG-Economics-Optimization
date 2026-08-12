@@ -62,6 +62,7 @@ versioning where appropriate.
   Caught by This Package."
 
 ### Notes
-The Zenodo DOI will be added once assigned upon archival release. The
-manuscript's own DOI (once published) will be added to this file and to
+The Zenodo DOI: https://doi.org/10.5281/zenodo.21900057
+
+The manuscript's own DOI (once published) will be added to this file and to
 the citation metadata files at that time.
